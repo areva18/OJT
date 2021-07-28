@@ -1,0 +1,26 @@
+<ion-header color="primary">
+  <ion-toolbar>
+    <ion-title >OJT Mobile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    <ion-card-header>
+      <img src="assets/ojt.png" alt="ojt">
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title >Log in</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content color="">
+      <ion-label color="primary">Username</ion-label>
+      <ion-input color="primary"placeholder="Enter your username" color="secondary"></ion-input>
+      <br>
+      <ion-label color="primary">Password</ion-label>
+      <ion-input placeholder="Enter your password" type="password" color="secondary"></ion-input>
+      <br>
+      <ion-button color="primary" (click)="logMeIn()">login</ion-button>
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>
